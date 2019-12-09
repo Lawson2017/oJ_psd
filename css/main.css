@@ -1,0 +1,286 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Questrial', sans-serif;
+	background-image: url(../img/whitebg.jpg)
+}
+
+.navigation {
+	height: 80px;
+	background-color: orange;
+	display: block;
+	border-bottom: solid 5px #ff7900;	
+}
+
+.navigation img {
+	height: 40px;
+	width: 40px;
+	margin-left: 8%;
+	margin-top: 6px;
+	margin-right: 0 auto;
+	color: #fff;
+	margin-bottom: 0 auto;
+}
+
+.navigation p {
+	display: inline;
+	margin-top: 1px;
+	margin-left: 0 auto;
+	color: #fff;
+	font-size: 1.8em;
+	font-weight: 200;
+	font-family: 'Josefin Slab'
+}
+
+.navigation .logo {
+	font-weight: 700;
+	font-size: 1.3em;
+
+}
+
+.navigation .trademark {
+	font-size: 0.5em;
+	margin-top: 
+}
+
+.navigation ul {
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 0 8px 0 8px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation a:hover {
+	color: black;
+}
+
+.searchBar {
+	height: 40px;
+	text-align: right;
+	position: relative;
+	top: 0;
+}
+
+.searchBar form {
+	margin-top: 0;
+	text-align-right;
+	border: none;
+	top: 0;
+	font-family: 'Josefin Slab', serif;	
+	z-index: -1;
+	position: relative;
+}
+
+form {
+	font-family: 'Josefin Slab', serif;	
+	z-index: -1;
+}
+
+form > input, form > textarea {
+    text-align: right;
+    color: black;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    padding: 10px;
+    width: 15%;
+    height: 18px;
+    margin-right: 40px;
+    margin-top: 5px;
+    background-color: hsl(0, 2%, 92%);
+}
+
+.searchBar img {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	z-index: -1;
+}
+
+main {
+	position: relative;
+	display: inline-block;
+}
+
+main img {
+    height: 300px;
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 1%;
+    display: inline-block;
+    top: 80px;
+}	
+
+.mainOrange {
+	font-family: 'Questrial', sans-serif;
+	font-size: 1.1em;
+}
+
+
+main h3 {
+	font-family: 'Josefin Slab', serif;
+	float: right;
+	margin-right: 100px;
+	margin-top: 6%;
+	display: inline-block;
+	font-size: 2.5em;
+	color: #ff7900;
+	line-height: 46px;
+	font-weight: 400;
+}
+
+main .trademark {
+	font-size: 0.4em;
+	margin-top:
+}
+
+.description {
+	color: hsl(184, 56%, 72%);
+	font-weight: 600;
+}
+
+.buttons {
+	float: right;
+	margin-right: 280px;
+	margin-top: 0;
+	position: relative;
+    bottom: 80px;
+}
+
+button.quote:hover { 
+	background-color: orange;
+}
+
+button.studies:hover {
+	background-color: hsl(192, 79%, 82%);
+}
+
+button.buttons {
+	font-family: 'Questrial';
+	height: 45px;
+	width: 55px;
+	line-height: 40px;
+	margin-bottom: 20%;
+	font-size: 100px;
+}
+
+button.quote {
+	background-color: #ff7900;
+	margin-right: 15px;
+	height: 45px;
+	width: 175px;
+	font-family: 'Questrial';
+	color: #fff;
+
+}
+
+button.studies {
+	background-color: hsl(184, 56%, 72%);
+	height: 45px;
+	width: 175px;
+	font-family: 'Questrial';
+	color: #fff;
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+a:hover {
+	color: black;
+}
+
+footer{
+    position: absolute;
+    background-color: hsl(184, 56%, 72%);
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+}
+
+/*MEDIA QUERIES*/
+
+/*SCREEN ADJUSTMENTS*/
+@media only screen and (max-width: 1070px) {
+	main h3 {
+		font-family: 'Josefin Slab', serif;
+		float: right;
+		margin-right: 100px;
+		margin-top: 0;
+		display: inline-block;
+		font-size: 2.5em;
+		color: #ff7900;
+		margin-bottom: 120px;
+		line-height: 46px;
+		font-weight: 400;        
+}
+	main img {
+		height: 300px;
+		width: 300px;
+		margin-left: 120px;
+		margin-top: 0;
+		display: inline-block;
+		top: 80px;
+}
+	.buttons {
+		float: right;
+		margin-right: 280px;
+		margin-top: 0;
+		position: relative;
+		bottom: 80px;
+		margin-bottom: 100px;
+}
+	footer {
+		position: fixed;
+}
+
+}
+
+@media only screen and (max-width: 780px) {
+	.navigation ul {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		margin-top: 30px;
+		margin-right: 40px;
+		font-size: .7em;
+		position: absolute;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+	 .studies {
+		background-color: hsl(184, 56%, 72%);
+		height: 45px;
+		width: 175px;
+		font-family: 'Questrial';
+		color: #fff;
+		margin-top: 20px;
+		display: block;
+}
+
+	main img {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.navigation ul {
+		margin-top: 10px;
+	}
+}
